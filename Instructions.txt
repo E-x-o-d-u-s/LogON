@@ -1,0 +1,12 @@
+1. Move the Sysmon installation file (for 32bit systems set the name as "Sysmon.exe" | for 64bit systems set the name as "Sysmon64.exe"), Sysmon config file (it must be named as "sysmon-config.xml") and Script file to the same directory.
+
+2. Open a Powershell window as Administrator and change directory to where the files above stays in. 
+
+3. Type the Script's name (add ".\" to the beginning) and press Enter. You can also use "Tab" to autofill Script's name.
+
+   a) If there is an any error that says "...script execution is disabled" then type this to the Shell window and press Enter. "Set-ExecutionPolicy Unrestricted"
+        a) If you face with an error while setting the policy up to unrestricted follow these links below to solve the issue (Requires reboot).
+        https://vladtalkstech.com/2014/03/change-powershell-machinepolicy-execution-policy-windows-server-2012r2.html
+        https://vladtalkstech.com/2014/03/change-powershell-machinepolicy-execution-policy-windows-server-2012r2.html
+      
+5. Re-run the script.
